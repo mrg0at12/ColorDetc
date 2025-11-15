@@ -71,7 +71,7 @@ def main():
                     for i in range(clicks_per_detection):
                         pyautogui.click()
                         print(f"  Click {i + 1}/{clicks_per_detection}")
-                        time.sleep(3)
+                        time.sleep(1)
 
                     print("✓ Clicking complete!")
                 else:
